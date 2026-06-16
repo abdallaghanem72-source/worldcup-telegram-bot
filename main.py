@@ -2,7 +2,8 @@ import requests
 import json
 from datetime import datetime, timedelta
 
-BOT_TOKEN = "PUT_YOUR_BOT_TOKEN"
+import os
+BOT_TOKEN = os.environ["BOT_TOKEN"]
 CHAT_ID = "1407218144"
 
 # مصدر مجاني للمباريات (TheSportsDB free endpoint)
