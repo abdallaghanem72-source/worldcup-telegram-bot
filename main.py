@@ -3,7 +3,7 @@ import json
 from datetime import datetime, timedelta
 
 import os
-BOT_TOKEN = os.environ["BOT_TOKEN"]
+BOT_TOKEN = os.environ["8917203510:AAFVLpFUGLwkpTS5ZRwg6nhBNXlNKhdPDF8"]
 CHAT_ID = "1407218144"
 
 # مصدر مجاني للمباريات (TheSportsDB free endpoint)
